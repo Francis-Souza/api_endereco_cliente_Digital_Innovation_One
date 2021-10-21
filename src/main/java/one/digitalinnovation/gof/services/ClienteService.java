@@ -1,5 +1,7 @@
 package one.digitalinnovation.gof.services;
 
+import java.util.List;
+
 import one.digitalinnovation.gof.model.Cliente;
 
 /**
@@ -10,9 +12,9 @@ import one.digitalinnovation.gof.model.Cliente;
  */
 public interface ClienteService {
 
-	Iterable<Cliente> findAll();
+	public List<Cliente>findAll();
 
-	Cliente findById(Long id);
+	public Cliente findById(Long id);
 
 	void insert(Cliente cliente);
 

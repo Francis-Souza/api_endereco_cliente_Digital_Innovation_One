@@ -1,5 +1,7 @@
 package one.digitalinnovation.gof.resources;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -30,7 +32,7 @@ public class ClienteResource {
 	private ClienteService clienteService;
 
 	@GetMapping
-	public ResponseEntity<Iterable<Cliente>> findAll() {
+	public ResponseEntity<List<Cliente>> findAll() {
 		return ResponseEntity.ok(clienteService.findAll());
 	}
 

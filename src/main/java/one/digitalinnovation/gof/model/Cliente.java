@@ -18,8 +18,7 @@ public class Cliente implements Serializable {
 	
 	public Cliente() {
 		
-	}
-	
+	}	
 	
 	public Cliente(Long id, String nome, Endereco endereco) {
 		this.id = id;
@@ -27,6 +26,7 @@ public class Cliente implements Serializable {
 		this.endereco = endereco;
 	}
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
