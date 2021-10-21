@@ -5,7 +5,7 @@ Repositório com as implementações dos padrões de projeto explorados no Lab "
 - Strategy/Repository/Service
 - Facade
 
-<h1>PROJETO DEMO PREENCHIMENTO DO ENDEREÇO DO CLIENTE PELO CEP FORNECIDO</h1> 
+<h2>PROJETO DEMO PREENCHIMENTO DO ENDEREÇO DO CLIENTE PELO CEP FORNECIDO</h2> 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 
 <h2>DESCRIÇÃO DO PROJETO</h2>
