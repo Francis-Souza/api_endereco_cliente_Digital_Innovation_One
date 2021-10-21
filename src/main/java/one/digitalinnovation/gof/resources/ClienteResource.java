@@ -30,6 +30,7 @@ public class ClienteResource {
 
 	@Autowired
 	private ClienteService clienteService;
+	
 
 	@GetMapping
 	public ResponseEntity<List<Cliente>> findAll() {
